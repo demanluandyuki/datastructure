@@ -2,6 +2,7 @@ package com.joyfulmath.datastructandalgorithms
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.joyfulmath.datastructandalgorithms.algorthms.MaximumSubarray
 import com.joyfulmath.datastructandalgorithms.leetcode.Sn1
 
 class MainActivity : AppCompatActivity() {
@@ -13,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun testLeetCode() {
-        Sn1.sample()
+//        Sn1.sample()
+        MaximumSubarray.sample()
     }
 }
